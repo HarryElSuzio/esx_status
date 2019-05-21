@@ -1,20 +1,90 @@
-#status_list {
-	position: absolute;
-	left   : 23;
-	bottom : 21%;
-	width  : 14.5%;
-	opacity: 0.3;
+﻿#status_list {
+	position: relative;
+        top    : -10%;  
+	left   : +80%; 
+	bottom : 3%;
+	width  : 4%; 
+	transform: rotateZ(270deg); 
+	opacity: 0.9; 
+}
+
+
+.comida p {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.agua p {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    right: 37%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.cagar p {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.mear p {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 37%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .status {
-	padding: 1px;
+	padding: 1px; 
 	margin: 0.3em;
+	border: 2px solid #000000;
+	border-radius: 50px; 
+
 }
 
 .status_inner {
-	padding: 1px;
+	height : 3.5em; 
+	padding: 2px; 
+	border-radius: 50px; 
 }
 
 .status_val {
-	height : 0.5em;
+	margin: auto;
+	height : 3.5em; 
+	border-radius: 50px; 
+
 }
